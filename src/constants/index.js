@@ -38,28 +38,31 @@ export const BrandLogos = [
         id: 6,
         image: "👨"
     },
+]
+
+export const features = [
     {
-        id: 7,
-        image: "👨"
+        count: 1,
+        icon: "",
+        title: "Secure Wallet",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
-        id: 8,
-        image: "👨"
+        count: 2,
+        icon: "",
+        title: "Low Fees",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
-        id: 9,
-        image: "👨"
+        count: 3,
+        icon: "",
+        title: "Real-Time Portfolio Management",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
-        id: 10,
-        image: "👨"
-    },
-    {
-        id: 11,
-        image: "👨"
-    },
-    {
-        id: 12,
-        image: "👨"
+        count: 4,
+        icon: "",
+        title: "Automated Trading",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
 ]

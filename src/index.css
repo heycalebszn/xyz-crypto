@@ -12,6 +12,7 @@
 body{
     background-color: var(--body-color);
     height: 100vh;
+    overflow-x: hidden;
 }
 
 :root {
