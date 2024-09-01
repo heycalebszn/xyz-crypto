@@ -1,14 +1,15 @@
 import { logo1 } from "../assets"
+import { ShieldBan, DollarSign, BriefcaseBusiness, Activity } from "lucide-react"
 
 export const Navlinks = [
     {
         id: 1,
-        label: "ABOUT",
+        label: "ABOUT US",
         path: "/about"
     },
     {
         id: 2,
-        label: "CONTACT US",
+        label: "CONTACT",
         path: "/contact-us"
     },
 ]
@@ -43,26 +44,49 @@ export const BrandLogos = [
 export const features = [
     {
         count: 1,
-        icon: "",
+        //icon: <ShieldBan />,
         title: "Secure Wallet",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 2,
-        icon: "",
+       // icon: <DollarSign />,
         title: "Low Fees",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 3,
-        icon: "",
+       // icon: <BriefcaseBusiness />,
         title: "Real-Time Portfolio Management",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 4,
-        icon: "",
+       // icon: <Activity />,
         title: "Automated Trading",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
+    },
+]
+
+export const FooterLinks = [
+    {
+        id: 1,
+        label: "ABOUT US",
+        path: "/about"
+    },
+    {
+        id: 2,
+        label: "CONTACT",
+        path: "/contact-us"
+    },
+    {
+        id: 3,
+        label: "BLOG",
+        path: "/contact-us"
+    },
+    {
+        id: 4,
+        label: "LEGAL",
+        path: "/contact-us"
     },
 ]
