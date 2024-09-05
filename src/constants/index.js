@@ -44,25 +44,25 @@ export const BrandLogos = [
 export const features = [
     {
         count: 1,
-        icon: ShieldBan ,
+       // icon: ShieldBan ,
         title: "Secure Wallet",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 2,
-        icon: DollarSign,
+       // icon: DollarSign,
         title: "Low Fees",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 3,
-        icon: BriefcaseBusiness,
+       // icon: BriefcaseBusiness,
         title: "Real-Time Portfolio Management",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },
     {
         count: 4,
-        icon: Activity ,
+       // icon: Activity ,
         title: "Automated Trading",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam iste repudiandae?"
     },

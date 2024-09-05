@@ -4,7 +4,7 @@ import { Link, Navigate } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="bg-[--body-color] text-white absolute bottom-0 w-full px-[50px] h-[15vh] flex flex-col items-center z-50">
+    <div className="bg-[--body-color] text-white w-full px-[50px] h-[15vh] flex flex-col items-center z-50 mt-[50px]">
         <ul className="flex pt-[20px]">
         {FooterLinks.map((item) => (
             <li key={item.id}>
