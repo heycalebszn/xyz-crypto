@@ -50,15 +50,15 @@ const Reviews = () => {
                 </div>
             </div>
        </div>
-       <div className="md:text-left items-center flex flex-col justify-center text-center">
-       <p className="text-white bg-[#1a1919] font-bold w-fit py-[2px] px-[10px] rounded-full text-[10px] mb-[10px] text-left items-left mt-[50px]">TESTIMONIALS</p> 
+       <div className="md:text-left md:items-start items-center flex flex-col justify-center text-center">
+       <p className="text-white bg-[#221b1b] font-bold w-fit py-[2px] px-[10px] rounded-full text-[10px] mb-[10px] text-left items-left mt-[50px]">TESTIMONIALS</p> 
         <h1 className="text-left md:text-[35px] text-[30px] font-bold ">What Our users say about us</h1>
-        <p className="mb-[20px] text-gray-500 text-[12px]">Security badges such as SSL encryption, regulatory certificates, and financial authority.</p>
+        <p className="mb-[20px] text-gray-500 text-[16px] ">Security badges such as SSL encryption, regulatory certificates, and financial authority.</p>
 
         <Link to={"/read-more"}>
         <div className="bg-red-500 flex rounded-md md:p-[10px] p-[5px] hover:bg-[#000] hover:border border-white transition duration-300 cursor-pointer text-center justify-center w-[150px] items-center">
         <a href="#" className="text-white font-semibold md:text-[15px] text-[10px]">Read More</a>
-        <ArrowRight className="text-white pl-[5px] md:w-[22px] w-[15px]" />
+        <ArrowRight className="text-white pl-[5px] md:w-[22px] w-[18px]" />
         </div>
         </Link>
        </div>

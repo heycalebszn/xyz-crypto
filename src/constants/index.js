@@ -1,4 +1,4 @@
-import { logo1 } from "../assets"
+import { logo1, logo2, logo3, logo4, logo5, logo6 } from "../assets"
 import { ShieldBan, DollarSign, BriefcaseBusiness, Activity } from "lucide-react"
 
 export const Navlinks = [
@@ -21,23 +21,23 @@ export const BrandLogos = [
     },
     {
         id: 2,
-        image: "👨"
+        image: logo2,
     },
     {
         id: 3,
-        image: "👨",
+        image: logo3,
     },
     {
         id: 4,
-        image: "👨"
+        image: logo4,
     },
     {
         id: 5,
-        image: "👨"
+        image: logo5,
     },
     {
         id: 6,
-        image: "👨"
+        image: logo6,
     },
 ]
 
@@ -88,5 +88,26 @@ export const FooterLinks = [
         id: 4,
         label: "LEGAL",
         path: "/contact-us"
+    },
+]
+
+export const News = [
+    {
+        category: "CRYPTO",
+        datePosted: "September 2024",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odit architecto libero! Adipisci accusantium soluta eaque omnis nobis consequatur nemo.",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga cum sint atque eaque impedit."
+    },
+    {
+        category: "CRYPTO",
+        datePosted: "September 2024",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odit architecto libero! Adipisci accusantium soluta eaque omnis nobis consequatur nemo.",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga cum sint atque eaque impedit."
+    },
+    {
+        category: "CRYPTO",
+        datePosted: "September 2024",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odit architecto libero! Adipisci accusantium soluta eaque omnis nobis consequatur nemo.",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga cum sint atque eaque impedit.",
     },
 ]
