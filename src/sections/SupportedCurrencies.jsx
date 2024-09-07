@@ -15,7 +15,7 @@ const SupportedCurrencies = () => {
                 <div className="flex justify-center items-center mt-[50px]">
                     <div className="flex gap-8">
                         {BrandLogos.map((item) => (
-                            <div className="bg-[#262857] rounded-md p-[15px] flex justify-center items-center">
+                            <div className="bg-[#262857] rounded-md p-[15px] flex justify-center items-center" key={item.id}>
                             <img
                             className="w-[70px]"
                             key={item.id}

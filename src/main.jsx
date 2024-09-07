@@ -7,11 +7,21 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Admin from './sections/Admin/Admin.jsx';
 import ReadMore from './sections/ReadMore/index.jsx';
+import UserAuth from './sections/Auth/UserAuth.jsx';
+import Login from './sections/Auth/Login.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/user-auth",
+    element: <UserAuth />
+  },
+  {
+    path: "/login",
+    element: <Login />
   },
   {
     path: "/read-more",

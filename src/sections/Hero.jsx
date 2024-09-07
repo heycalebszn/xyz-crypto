@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { heroImg } from "../assets";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,15 +13,19 @@ const Hero = () => {
 
         <div className="flex gap-[10px] my-[50px]">
 
-        <div className="bg-red-500 flex rounded-md px-[15px] py-[10px] text-[12px] hover:bg-[--body-color] hover:border border-white transition duration-300 cursor-pointer text-center justify-center w-[150px]">
+        <Link to={"/user-auth"}>
+        <div className="bg-red-500 flex rounded-md px-[15px] py-[10px] text-[12px] hover:bg-[--body-color] hover:border border-white transition duration-300 cursor-pointer text-center justify-center w-[150px] items-center">
         <a href="#" className="text-white font-semibold text-[15px]">Get Started</a>
         <ArrowRight className="text-white pl-[5px] w-[22px]" />
         </div>
+        </Link>
 
+        <Link to={"/"}>
             <div className="bg-transparent flex rounded-md px-[15px] py-[10px] text-[12px] hover:bg-[--body-color] border border-red-500 transition duration-300 cursor-pointer text-center justify-center w-[150px]">
             <a href="#" className="text-white font-semibold text-[15px] ">Learn More</a>
             <ArrowRight className="text-white pl-[5px] w-[22px]" />
             </div>
+            </Link>
 
             </div>
         </div>
