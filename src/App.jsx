@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import CallToAction from "./sections/CallToAction";
 import Features from "./sections/Features";
 import Hero from "./sections/Hero";
@@ -10,6 +11,7 @@ import SignUpCTA from "./sections/SignUpCTA";
 const App = () => {
   return (
     <div className="flex flex-col">
+    <Navbar />
       <Hero />
       <SupportedCurrencies />
       <Features />

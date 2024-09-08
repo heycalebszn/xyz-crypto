@@ -9,6 +9,10 @@ import Admin from './sections/Admin/Admin.jsx';
 import ReadMore from './sections/ReadMore/index.jsx';
 import UserAuth from './sections/Auth/UserAuth.jsx';
 import Login from './sections/Auth/Login.jsx';
+import ReactDOM from 'react-dom/client';
+import React from "react";
+import {PrivyProvider, usePrivy} from '@privy-io/react-auth';
+
 
 const router = createBrowserRouter([
   {
@@ -34,8 +38,15 @@ const router = createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Navbar />
+  <React.StrictMode>
+  <PrivyProvider
+  appId="cm0s639mi01kn11rq4xh3hjzb"
+  config={{
+    appearance: {
+    theme: "dark",
+}}}>
+
     <RouterProvider router={router} />
-  </StrictMode>,
+</PrivyProvider>
+  </React.StrictMode>,
 )
