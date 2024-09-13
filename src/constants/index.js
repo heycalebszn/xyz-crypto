@@ -111,3 +111,12 @@ export const News = [
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga cum sint atque eaque impedit.",
     },
 ]
+
+export const blogs = [
+    {
+        image: "",
+        title: "Hello how's it going over there? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo alias velit deserunt a necessitatibus vero debitis ex earum aperiam autem! Sunt consequuntur excepturi asperiores labore doloremque accusantium est mollitia velit, ullam a eveniet dolorum quia earum nemo corporis voluptates dicta praesentium, inventore commodi accusamus! Iusto asperiores vel nobis ipsam, cumque laboriosam dolore accusamus sequi quidem veritatis, soluta nisi animi officia quod quae alias vitae ut obcaecati debitis delectus enim reiciendis repellendus unde. Consectetur nam voluptatibus vel aperiam, ad quisquam harum sit fugiat perferendis magni pariatur laborum voluptas nesciunt eius corporis? Sed veritatis laboriosam nihil, neque sunt nisi voluptatem maiores adipisci delectus nulla nam ad dolorum distinctio dolores aliquid iste tempore architecto inventore corrupti. Necessitatibus quasi cumque dignissimos similique nobis provident ut, commodi pariatur, placeat totam reiciendis sed dicta et nemo porro, facere atque illum ea explicabo quas! Ad cumque asperiores sequi sed excepturi? Commodi ut, provident eveniet iure distinctio aspernatur.",
+        description: "What's in the news?",
+        date: "2024-08-16"
+    },
+]

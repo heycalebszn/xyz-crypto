@@ -9,7 +9,7 @@ const ReadMore = () => {
     return(
         <section className="flex flex-col">
         <Navbar />
-        <ColouredFeatures />
+        <ColouredFeatures styles="pt-[150px]" />
         <Footer />
         </section>
     )

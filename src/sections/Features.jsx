@@ -19,7 +19,7 @@ const Features = () => {
             ))}
             </div>
         </div>
-        <ColouredFeatures />
+        <ColouredFeatures styles="pt-[50px]" />
     </div>
   )
 }

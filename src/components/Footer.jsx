@@ -6,7 +6,7 @@ import { FacebookIcon, Linkedin, SunMedium, TwitterIcon } from 'lucide-react'
 const Footer = () => {
   return (
     <div className="bg-[--body-color] text-white w-full px-[50px] h-fit flex flex-col z-50 mt-[50px] gap-4 py-[30px] justify-between">
-      <div className="flex justify-around mb-[20px] flex-col">
+      <div className="flex justify-around mb-[20px] sm:flex-row flex-col">
       <div className="flex flex-col gap-4">
       <h1 className="font-bold text-[25px]">XYZ</h1>
       <h1 className="font-bold text-[15px]">Let's Connect</h1>
@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       </div>
 
-      <div className="flex gap-10 mt-[30px] sm:mt-0 sm:gap-0">
+      <div className="flex gap-10 mt-[30px] ">
       <div className="flex flex-col">
       <h1 className="font-bold">Company</h1>
         <ul className="flex pt-[20px] flex-col">
@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
         </div>
 
-        <div>
+        <div className="flex flex-col">
         <h1 className="font-bold">Legal</h1>
         <ul className="flex pt-[20px] flex-col">
           <li><a className="text-gray-200 pl-[5px] md:text-[12px]  text-[10px] hover:text-gray-500 transition duration-150" href="">PRIVACY</a></li>
