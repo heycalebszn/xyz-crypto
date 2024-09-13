@@ -11,6 +11,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const handleUserAuthentication = () => {
+        login;
         if(user && ready && authenticated) {
             navigate("/dashboard");
         } else {
@@ -41,7 +42,7 @@ const Navbar = () => {
 
             
             <div>
-            <Button disabled={disableLogin} onClick={login} 
+            <Button disabled={disableLogin} onClick={handleUserAuthentication} 
         styles="bg-red-600 md:hidden flex w-full"
         title={"Get Started"}/>
             </div>
@@ -49,7 +50,7 @@ const Navbar = () => {
             </div>
             
             
-            <div className="bg-red-500 shrink-0 rounded-md px-[15px] py-[10px] border-white transition duration-300 cursor-pointer relative text-center items-center justify-center sm:mt-0 mt-[20px] mr-[50px] hidden md:flex">
+            <div className="bg-red-500 shrink-0 rounded-md px-[15px] py-[10px] border-white transition duration-300 cursor-pointer relative text-center items-center justify-center sm:mt-0 mt-[20px] mr-[50px] hidden md:flex" disabled={disableLogin} onClick={handleUserAuthentication}>
             <a href="#" className="text-white font-semibold text-[12px]">Get Started</a>
             <ArrowRight className="text-white pl-[5px] w-[20px]" />
             </div>

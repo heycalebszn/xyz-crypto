@@ -8,6 +8,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleUserAuthentication = () => {
+    login;
     if(user && ready && authenticated) {
         navigate("/dashboard");
     } else {
