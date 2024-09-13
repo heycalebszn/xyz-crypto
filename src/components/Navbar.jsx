@@ -12,7 +12,7 @@ const Navbar = () => {
 
     const handleUserAuthentication = () => {
         login;
-        if(user && ready && authenticated) {
+        if(user) {
             navigate("/dashboard");
         } else {
             login;
