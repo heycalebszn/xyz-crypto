@@ -1,8 +1,18 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {usePrivy} from '@privy-io/react-auth';
+import Navbar from "../../components/Navbar";
 
 const UserAuth = () => {
+    const { login, ready, authenticated, user } = usePrivy();
+    const navigate = useNavigate();
+
+        if(user) {
+            navigate("/dashboard");
+        } else {
+            login;
+        }
+    
+      const disableLogin = !ready || (ready && authenticated);
   return (
     <div className="flex flex-col justify-center items-center pt-[150px]">
         <div className="flex flex-col text-center mb-[20px]">
@@ -26,12 +36,12 @@ const UserAuth = () => {
             <input type="email" placeholder="Victor@gmail.com" className="border border-gray-400 px-[10px] h-[30px] w-[250px] text-[13px] rounded-sm outline-gray-500" />
             </div>
 
-            <button type="submit" className="text-[13px] font-semibold text-center flex m-auto p-[7px] bg-black text-white rounded-sm w-full mt-[15px] items-center justify-center">Create Free Account</button>
+            <button type="submit" className="text-[13px] font-semibold text-center flex m-auto p-[7px] bg-black text-white rounded-sm w-full mt-[15px] items-center justify-center" disabled={disableLogin} onClick={login}>Create Free Account</button>
 
             <span className="mt-[20px] text-[12px] flex text-center items-center justify-center font-medium">
                 Already have an account? 
                 <Link to={"/login"}>
-                <a className="pl-[5px] text-blue-500 underline" href="" >Sign In</a>
+                <a className="pl-[5px] text-blue-500 underline" href=""  >Sign In</a>
                 </Link>
             </span>
         </form>

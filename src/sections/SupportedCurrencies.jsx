@@ -17,7 +17,7 @@ const SupportedCurrencies = () => {
                         {BrandLogos.map((item) => (
                             <div className="bg-[#262857] rounded-md p-[15px] flex justify-center items-center" key={item.id}>
                             <img
-                            className="w-[70px]"
+                            className="md:w-[70px] w-[150px]"
                             key={item.id}
                             src={item.image}
                             alt="Brand Logos"

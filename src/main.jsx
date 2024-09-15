@@ -55,7 +55,7 @@ createRoot(document.getElementById('root')).render(
     appearance: {
     theme: "light",
     accentColor: "black",
-    logo: "<h1>XYZ</h1>",
+    logo: <h1>XYZ</h1>,
   },
 
   embeddedWallets: {

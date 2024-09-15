@@ -4,20 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import {usePrivy} from '@privy-io/react-auth';
 import Button from "../components/Button";
 const Hero = () => {
-  const { login, ready, authenticated, user } = usePrivy();
-  const navigate = useNavigate();
-
-  const handleUserAuthentication = () => {
-    login;
-    if(user) {
-        navigate("/dashboard");
-    } else {
-        login;
-    }
-}
-
-  const disableLogin = !ready || (ready && authenticated);
-
    return (
     <div className="flex flex-col md:flex-row pt-[150px] pb-[30px] px-[50px] bg-[#010221] md:text-justify md:justify-normal text-center justify-center items-center">
 
@@ -28,11 +14,11 @@ const Hero = () => {
 
         <div className="flex gap-[10px] my-[50px]">
 
-        
-        <Button disabled={disableLogin} onClick={handleUserAuthentication} 
+        <Link to={"/user-auth"}>
+        <Button  
         styles="bg-red-600 hover:border hover:border-white"
         title={"Get Started"}/>
-       
+       </Link>
         <Button styles="bg-transparent border border-red-600 sm:flex hidden" title={"Learn More"} />
         </div>
         </div>

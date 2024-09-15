@@ -52,8 +52,8 @@ const Reviews = () => {
        </div>
        <div className="md:text-left md:items-start items-center flex flex-col justify-center text-center md:justify-normal">
        <p className="text-white bg-[#221b1b] font-bold w-fit py-[2px] px-[10px] rounded-full text-[10px] mb-[10px] text-left items-left mt-[50px]">TESTIMONIALS</p> 
-        <h1 className="md:text-[30px] text-[30px] font-bold text-center md:text-left">What Our users say about us</h1>
-        <p className="mb-[20px] text-gray-500 text-[16px] ">Some things our users said about us.</p>
+        <h1 className="md:text-[30px] text-[30px] font-bold text-center md:text-left pb-[15px]">What Our users say about us</h1>
+        
 
         <Link to={"/read-more"}>
         <div className="bg-red-500 flex rounded-md md:p-[10px] p-[5px] hover:bg-[#000] hover:border border-white transition duration-300 cursor-pointer text-center justify-center w-[150px] items-center">
