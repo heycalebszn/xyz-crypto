@@ -10,6 +10,8 @@ import Earth from "./earth.png";
 import Features1 from "./Features/features1.png";
 import Features2 from "./Features/features2.png";
 import Features3 from "./Features/features3.png";
+import Hero1 from "./Hero1.jpg";
+import Hero2 from "./Hero2.jpg";
 
 export {
     logo1,
@@ -24,4 +26,6 @@ export {
     Features1,
     Features2,
     Features3,
+    Hero1,
+    Hero2,
 }

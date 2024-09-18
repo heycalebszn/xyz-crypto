@@ -4,12 +4,32 @@ import { ShieldBan, DollarSign, BriefcaseBusiness, Activity } from "lucide-react
 export const Navlinks = [
     {
         id: 1,
-        label: "ABOUT US",
-        path: "/about"
+        label: "home",
+        path: "/"
     },
     {
         id: 2,
-        label: "CONTACT",
+        label: "buy",
+        path: "/contact-us"
+    },
+    {
+        id: 3,
+        label: "help",
+        path: "/help"
+    },
+    {
+        id: 4,
+        label: "about",
+        path: "/about"
+    },
+    {
+        id: 5,
+        label: "faq",
+        path: "/faq"
+    },
+    {
+        id: 6,
+        label: "contact",
         path: "/contact-us"
     },
 ]

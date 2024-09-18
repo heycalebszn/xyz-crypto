@@ -7,6 +7,7 @@ import Reviews from "./sections/Reviews";
 import SupportedCurrencies from "./sections/SupportedCurrencies";
 import Updates from "./sections/Updates";
 import SignUpCTA from "./sections/SignUpCTA";
+import Pricing from "./sections/Pricing";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <SupportedCurrencies />
       <Features />
       <Reviews />
+      <Pricing />
       <Updates />
       <CallToAction />
       <SignUpCTA />
