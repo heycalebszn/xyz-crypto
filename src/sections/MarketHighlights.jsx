@@ -92,12 +92,12 @@ const MarketHighlights = () => {
   }, [widgetConfig]);
 
   return (
-    <div className="tradingview-widget-container w-full mt-[50px]">
-      <h1 className="text-[35px] font-bold">Market Highlights</h1>
+    <div className="tradingview-widget-container w-full mt-[50px] px-[50px] sm:mt-[100px]">
+      <h1 className="text-[35px] font-bold pb-[10px]">Market Highlights</h1>
       <div className="tradingview-widget-container__widget m-auto" ref={containerRef}></div>
       <div className="tradingview-widget-copyright">
         <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-          <span className="blue-text">Track all markets on TradingView</span>
+          <span className="blue-text"></span>
         </a>
       </div>
     </div>

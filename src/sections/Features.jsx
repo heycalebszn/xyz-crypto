@@ -4,7 +4,7 @@ import ReadMore from "./ReadMore"
 
 const Features = () => {
   return (
-    <div className="bg-white mt-[100px]">
+    <div className="bg-white mt-[50px]">
         <p className="text-red-900 bg-red-300 font-bold w-fit py-[2px] px-[10px] rounded-full text-[10px] mb-[10px] text-center m-auto mt-[50px]">OUR FEATURES</p> 
         <h1 className="sm:text-[50px] font-bold text-[35px] leading-[50px] sm:leading-normal text-center pb-[20px]">Dive in and experience the <br /> difference!</h1>
         <div className="flex">

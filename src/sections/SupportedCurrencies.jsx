@@ -38,7 +38,7 @@ const SupportedCurrencies = () => {
   }, []);
 
   return (
-    <div className="tradingview-widget-container my-[20px] w-full px-[50px]">
+    <div className="tradingview-widget-container my-[20px] w-full">
       <div id="ticker-tape-widget" className="m-auto"></div>
       <div className="tradingview-widget-copyright">
         <a
