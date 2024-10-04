@@ -8,6 +8,8 @@ import SupportedCurrencies from "./sections/SupportedCurrencies";
 import Updates from "./sections/Updates";
 import SignUpCTA from "./sections/SignUpCTA";
 import Pricing from "./sections/Pricing";
+import MarketHighlights from "./sections/MarketHighlights";
+import StockFeatures from "./sections/StockFeatures";
 
 const App = () => {
   return (
@@ -21,6 +23,10 @@ const App = () => {
       <Updates />
       <CallToAction />
       <SignUpCTA />
+      <div className="flex flex-col gap-10">
+      <MarketHighlights />
+      <StockFeatures />
+      </div>
       <Footer />
     </div>
   )

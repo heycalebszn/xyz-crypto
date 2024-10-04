@@ -1,0 +1,2 @@
+* implement the market highlights section
+* implement TradingView section

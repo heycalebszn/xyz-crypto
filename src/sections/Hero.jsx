@@ -1,11 +1,11 @@
 
-import { heroImg } from "../assets";
+import { Hero1 } from "../assets";
 import { Link, useNavigate } from "react-router-dom";
 import {usePrivy} from '@privy-io/react-auth';
 import Button from "../components/Button";
 const Hero = () => {
    return (
-    <div className="flex flex-col md:flex-row pt-[150px] pb-[30px] px-[50px] bg-[#010221] md:text-justify md:justify-normal text-center justify-center items-center">
+    <div className="flex flex-col md:flex-row pt-[150px] pb-[30px] px-[50px] bg-[#010221] md:text-justify md:justify-normal text-center justify-center items-center h-screen">
 
       <div className="flex flex-col justify-center items-center md:justify-normal md:items-start z-30">
         <p className="text-white bg-[#010221] font-bold w-fit py-[2px] px-[10px] rounded-full text-[10px] mb-[10px] text-center">TRADE SMART</p>
@@ -23,7 +23,9 @@ const Hero = () => {
         </div>
         </div>
 
-        <img className="md:absolute md:right-[50px] md:w-[600px] z-0" src={heroImg} alt="Hero" />
+        <div className=" p-[50px] relative z-0 md:absolute md:right-[40px] rounded-3xl top-[100px]">
+        <img className="md:w-[300px] w-[300px] h-[400px] rounded-md" src={Hero1} alt="Hero" />
+        </div>
     </div>
   )
 }
