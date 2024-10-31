@@ -18,7 +18,7 @@ const App = () => {
       <Reviews />
       <Updates />
       <CallToAction />
-      <SignUpCTA />
+      <SignUpCTA 
       <Footer />
     </div>
   )
