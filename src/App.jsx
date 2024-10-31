@@ -19,7 +19,7 @@ const App = () => {
       <Updates />
       <CallToAction />
       <SignUpCTA />
-      <Footer 
+      <Footer />
     </div>
   )
 }
